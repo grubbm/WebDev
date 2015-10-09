@@ -56,7 +56,20 @@
     
 </table>   
 
-
+  <section>           
+              <ol>
+                  <li>First Item!</li>
+                  <li>Second Item!</li>
+                  <li>Third Item!</li>
+    </section>              
+       
+       
+   <div class ="outer-content">
+       <div class = "inner-content">
+           Here is some content
+          </div>             
+       
+   </div>    
 
 
 table{
@@ -65,3 +78,30 @@ table{
 th, td{
     border-style:solid;
 }
+
+
+table{    
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
+
+.outer-content{
+    position:relative;
+    top:25px;
+    background-color:pink;
+    width:75%;
+    height:50px;
+}
+
+.outer-content > .inner-content{
+    position:relative;
+    background-color:blue; 
+    top:10px;
+    bottom:10px;
+    left:125px;
+    right:125px;
+    width:37%; 
+    height:30px; 
+}    
