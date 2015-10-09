@@ -1,3 +1,4 @@
+<section>
 <table>
     <caption> This is a test table for CS290!!</caption>
     <thead>
@@ -55,8 +56,8 @@
     
     
 </table>   
-
-  <section>           
+              </section>              
+   <section>           
               <ol>
                   <li>First Item!</li>
                   <li>Second Item!</li>
@@ -70,38 +71,83 @@
           </div>             
        
    </div>    
-
-
-table{
-    border-style:solid;
-}
-th, td{
-    border-style:solid;
-}
-
-
-table{    
-    border-style:solid;
-}
-th, td{
-    border-style:solid;
-}
-
-.outer-content{
-    position:relative;
-    top:25px;
-    background-color:pink;
-    width:75%;
-    height:50px;
-}
-
-.outer-content > .inner-content{
-    position:relative;
-    background-color:blue; 
-    top:10px;
-    bottom:10px;
-    left:125px;
-    right:125px;
-    width:37%; 
-    height:30px; 
-}    
+      <br />
+      <br /> 
+      <br />
+       
+  <section>     
+       <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Text Here:
+            <input type="text" name="text_input" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>Number Here:
+            <input type="number" name="number_input" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>Password Here:
+            <input type="password" name="password_input" size="30" maxLength="100">
+                </label>
+            <br />
+      
+    </fieldset>
+    <br />
+            
+     <fieldset>
+         Select Between:
+            <br />
+             <label>
+                 <input type ="radio" name="candy" value= "Snickers" /> Sickers </label>
+             <br />
+          <label>
+                 <input type ="radio" name="candy" value= "Skittles" /> Skittles </label>
+             <br />
+          <label>
+                 <input type ="radio" name="candy" value= "Mentos" /> Mentos </label>
+            <br /> 
+                     <input type="submit" value="Submit" />  
+             </fieldset>    
+            
+            </section>            
+            <br />
+            <br />
+        <section>     
+       <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Text Here:
+            <input type="text" name="text_input" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>Number Here:
+            <input type="number" name="number_input" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>Password Here:
+            <input type="password" name="password_input" size="30" maxLength="100">
+                </label>
+            <br />
+        <br />
+    </fieldset>
+    <br />
+            
+     <fieldset>
+         Select Between:
+            <br />
+             <label>
+                 <input type ="radio" name="candy" value= "Snickers" /> Sickers </label>
+             <br />
+          <label>
+                 <input type ="radio" name="candy" value= "Skittles" /> Skittles </label>
+             <br />
+          <label>
+                 <input type ="radio" name="candy" value= "Mentos" /> Mentos </label>
+            <br /> 
+        <input type="submit" value="Submit" />       
+             </fieldset>    
+            
+            </section>         
+            
+            
