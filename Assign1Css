@@ -1,0 +1,26 @@
+table{    
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
+
+.outer-content{
+    position:relative;
+    top:25px;
+    background-color:pink;
+    width:75%;
+    height:50px;
+    bottom:100px;
+}
+
+.outer-content > .inner-content{
+    position:relative;
+    background-color:blue; 
+    top:10px;
+    bottom:10px;
+    left:125px;
+    right:125px;
+    width:37%; 
+    height:30px; 
+}    
