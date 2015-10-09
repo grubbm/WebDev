@@ -1,0 +1,67 @@
+<table>
+    <caption> This is a test table for CS290!!</caption>
+    <thead>
+        <tr>
+            <td>        </td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+            <td>Column 4</td>
+            <td>Column 5</td>
+            <td>Column 6</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td><i>R2C1</i></td>
+            <td>R2C2</td>
+            <td>R2C3</td>
+            <td>R2C4</td>
+            <td>R2C5</td>
+            <td>R2C6</td>    
+        <tr>
+            <td><i>R3C1</i></td>
+            <td>R3C2</td>
+            <td>R3C3</td>
+            <td>R3C4</td>
+            <td>R3C5</td>
+            <td>R3C6</td>    
+        <tr>
+            <td><i>R3C1</i></td>
+            <td>R4C2</td>
+            <td>R4C3</td>
+            <td>R4C4</td>
+            <td>R4C5</td>
+            <td>R4C6</td> 
+          <tr>
+            <td><i>R3C1</i></td>
+            <td>R5C2</td>
+            <td>R5C3</td>
+            <td>R5C4</td>
+            <td>R5C5</td>
+            <td>R5C6</td> 
+           <tr>
+            <td><i>R3C1</i></td>
+            <td>R6C2</td>
+            <td>R6C3</td>
+            <td>R6C4</td>
+            <td>R6C5</td>
+            <td>R6C6</td> 
+               
+      <tfoot>
+          <tr>
+              <td colspan="2"> footer 1 </td>
+              <td colspan="4"> footer 2 </td>
+     </tfoot>        
+    </tbody>
+    
+    
+</table>   
+
+
+
+
+table{
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
