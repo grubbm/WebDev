@@ -1,3 +1,7 @@
+<head>
+<link rel="stylesheet" type="text/css" href="Assign1Css.css">
+</head>
+
 <section>
 <table>
     <caption> This is a test table for CS290!!</caption>
