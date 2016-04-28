@@ -1,0 +1,43 @@
+[
+{
+	"vineyard": "Grubb's Vineyard",
+	"regn" : "Colombia Valley",
+	"type" : "Merlot",
+	"yr" : 2013,
+	"price" : 150  
+},
+
+{
+	"vineyard": "Damilano",
+	"regn" : "Piedmont",
+	"type" : "Nebbiolo",
+	"yr" : 2013,
+	"price" : 50  
+ },
+
+{
+	"vineyard": "Grubb's Italian Vineyard",
+	"type" : "Super Tuscan",
+	"regn" : "Tuscany",
+	"yr" : 2013,
+	"price": 200
+  
+},
+
+{
+	"vineyard": "Vavasour",
+	"type" : "Savignon Blanc",
+	"regn" : "New Zealand",
+	"yr" : 2011,
+	"price": 45
+  
+},
+{
+	"vineyard": "Grubb's Chilean Vineyard",
+	"type" : "Malbec",
+	"regn" : "Chile",
+	"yr" : 2015,
+	"price": 35
+  
+}
+]
